@@ -1,0 +1,58 @@
+/* adjust the WHOLE of the HTML page */
+html {
+    font-size: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+/* adjust body of page */
+body {
+    background-color: hsl(360, 100%, 0%);
+    font-family: "M PLUS 1 Code", monospace;
+    color: #0684F9;
+    width: 66%; /* makes sure the full sized only takes 75% of the page */
+}
+
+h1 { 
+    font-size: 4em;
+    color: #f97b06;
+    text-shadow: #f97b06 5px 5px 10px;
+}
+
+h2 {
+    font-size: 3em;
+    text-shadow: #f97b06 5px 5px 10px;
+    color: #f97b06;
+}
+
+h3 {
+    font-size: 2em;
+    color: #f97b06;
+}
+
+/* adjust links */
+a {
+    color: hsl(30, 100%, 40%);
+    text-decoration: underline overline dotted;
+
+}
+
+/* work in progress, need to better align and space out table data */
+table {
+    border: white dashed;
+    text-align: left;
+    width: 50%;
+}
+
+/* adjust to make all Sections uniform */
+section {
+    border-bottom: grey solid;
+}
+
+/* work in progress.  get the form to look mor like standard "reach me" submission */
+form {
+
+
+}
